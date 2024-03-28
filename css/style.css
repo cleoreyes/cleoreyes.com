@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "SF-Pro";
+    src: url(SF-Pro.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF-Pro";
+}
+
+body {
+    min-height: 100vh;
+    background-color: #FFFBF6;
+}
+
+.header {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+    background: #4A5F90;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 48px;
+    color: #D8D8BC;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Garamond';
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.sites {
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    z-index: 100;
+}
+.top {
+    background-color: #4A5F90;
+    margin: 0%;
+    padding: 0%;
+}
+
+.firstpart {
+    width: 88%;
+    padding: 20px;
+    display: flex;
+    column-gap: 90px;
+    align-items: center;
+    z-index: 100;
+}
